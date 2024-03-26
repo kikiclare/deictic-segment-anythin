@@ -130,6 +130,4 @@ More scripts are available:
 
 [Solving Behind-the-Scenes](./scripts/solve_behind-the-scenes.sh) -->
 
-# LICENSE
-See [LICENSE](./LICENSE). 
 
