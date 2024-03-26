@@ -1,0 +1,2 @@
+cond1(X):-wearing(X,Y),type(Y,helmet).
+target(X):-cond1(X).

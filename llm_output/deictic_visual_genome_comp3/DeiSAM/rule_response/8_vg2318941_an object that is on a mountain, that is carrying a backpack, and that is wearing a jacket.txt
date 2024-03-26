@@ -1,0 +1,4 @@
+cond1(X):-on(X,Y),type(Y,mountain).
+cond2(X):-carrying(X,Y),type(Y,backpack).
+cond3(X):-wearing(X,Y),type(Y,jacket).
+target(X):-cond1(X),cond2(X),cond3(X).

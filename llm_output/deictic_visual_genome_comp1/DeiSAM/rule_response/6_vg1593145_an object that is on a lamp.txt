@@ -1,0 +1,2 @@
+cond1(X):-on(X,Y),type(Y,lamp).
+target(X):-cond1(X).

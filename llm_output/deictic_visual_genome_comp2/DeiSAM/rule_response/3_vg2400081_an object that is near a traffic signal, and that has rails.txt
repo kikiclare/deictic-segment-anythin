@@ -1,0 +1,3 @@
+cond1(X):-near(X,Y),type(Y,trafficsignal).
+cond2(X):-has(X,Y),type(Y,rails).
+target(X):-cond1(X),cond2(X).

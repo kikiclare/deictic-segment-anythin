@@ -1,0 +1,4 @@
+cond1(X):-has(X,Y),type(Y,sides).
+cond2(X):-on(X,Y),type(Y,pole).
+cond3(X):-above(X,Y),type(Y,stopsign).
+target(X):-cond1(X),cond2(X),cond3(X).

@@ -1,0 +1,2 @@
+cond1(X):-in_front_of(X,Y),type(Y,fence).
+target(X):-cond1(X).

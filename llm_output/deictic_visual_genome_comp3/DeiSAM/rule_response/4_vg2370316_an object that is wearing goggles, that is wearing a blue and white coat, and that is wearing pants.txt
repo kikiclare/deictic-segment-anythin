@@ -1,0 +1,4 @@
+cond1(X):-wearing(X,Y),type(Y,goggles).
+cond2(X):-wearing(X,Y),type(Y,blue_white_coat).
+cond3(X):-wearing(X,Y),type(Y,pants).
+target(X):-cond1(X),cond2(X),cond3(X).

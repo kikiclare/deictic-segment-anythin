@@ -1,0 +1,3 @@
+cond1(X):-wearing(X,Y),type(Y,tennis_shoe).
+cond2(X):-wearing(X,Y),type(Y,shirt).
+target(X):-cond1(X),cond2(X).

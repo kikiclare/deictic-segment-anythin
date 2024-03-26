@@ -1,0 +1,4 @@
+cond1(X):-holding(X,Y),type(Y,bat).
+cond2(X):-wearing(X,Y),type(Y,baseball_cap).
+cond3(X):-has(X,Y),type(Y,ear).
+target(X):-cond1(X),cond2(X),cond3(X).

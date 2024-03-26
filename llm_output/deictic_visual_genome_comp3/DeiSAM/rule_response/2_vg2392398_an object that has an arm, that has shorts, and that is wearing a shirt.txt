@@ -1,0 +1,4 @@
+cond1(X):-has(X,Y),type(Y,arm).
+cond2(X):-has(X,Y),type(Y,shorts).
+cond3(X):-wearing(X,Y),type(Y,shirt).
+target(X):-cond1(X),cond2(X),cond3(X).

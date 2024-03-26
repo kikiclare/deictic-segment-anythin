@@ -1,0 +1,2 @@
+cond1(X):-on(X,Y),type(Y,hill).
+target(X):-cond1(X).

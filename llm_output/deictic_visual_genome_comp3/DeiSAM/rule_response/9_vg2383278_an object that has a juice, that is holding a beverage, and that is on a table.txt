@@ -1,0 +1,4 @@
+cond1(X):-has(X,Y),type(Y,juice).
+cond2(X):-holding(X,Y),type(Y,beverage).
+cond3(X):-on(X,Y),type(Y,table).
+target(X):-cond1(X),cond2(X),cond3(X).

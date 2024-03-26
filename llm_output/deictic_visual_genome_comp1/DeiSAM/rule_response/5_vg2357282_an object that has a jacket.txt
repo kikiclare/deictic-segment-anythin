@@ -1,0 +1,2 @@
+cond1(X):-has(X,Y),type(Y,jacket).
+target(X):-cond1(X).

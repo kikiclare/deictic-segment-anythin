@@ -1,0 +1,4 @@
+cond1(X):-has(X,Y),type(Y,trunk).
+cond2(X):-has(X,Y),type(Y,tail).
+cond3(X):-has(X,Y),type(Y,tusk).
+target(X):-cond1(X),cond2(X),cond3(X).

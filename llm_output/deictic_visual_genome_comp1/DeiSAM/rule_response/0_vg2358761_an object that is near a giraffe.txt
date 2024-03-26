@@ -1,0 +1,2 @@
+cond1(X):-near(X,Y),type(Y,giraffe).
+target(X):-cond1(X).

@@ -1,0 +1,3 @@
+cond1(X):-on(X,Y),type(Y,water).
+cond2(X):-near(X,Y),type(Y,shore).
+target(X):-cond1(X),cond2(X).

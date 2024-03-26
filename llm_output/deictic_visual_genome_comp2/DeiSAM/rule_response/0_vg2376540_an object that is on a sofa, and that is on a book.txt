@@ -1,0 +1,3 @@
+cond1(X):-on(X,Y),type(Y,sofa).
+cond2(X):-on(X,Y),type(Y,book).
+target(X):-cond1(X),cond2(X).

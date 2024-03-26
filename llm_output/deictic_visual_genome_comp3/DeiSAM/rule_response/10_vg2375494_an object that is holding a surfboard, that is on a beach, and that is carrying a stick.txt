@@ -1,0 +1,4 @@
+cond1(X):-holding(X,Y),type(Y,surfboard).
+cond2(X):-on(X,Y),type(Y,beach).
+cond3(X):-carrying(X,Y),type(Y,stick).
+target(X):-cond1(X),cond2(X),cond3(X).

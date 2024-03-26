@@ -1,0 +1,2 @@
+cond1(X):-sitting_on(X,Y),type(Y,bench).
+target(X):-cond1(X).

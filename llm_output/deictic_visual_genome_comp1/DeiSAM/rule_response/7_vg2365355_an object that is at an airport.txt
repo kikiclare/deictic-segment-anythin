@@ -1,0 +1,2 @@
+cond1(X):-at(X,Y),type(Y,airport).
+target(X):-cond1(X).

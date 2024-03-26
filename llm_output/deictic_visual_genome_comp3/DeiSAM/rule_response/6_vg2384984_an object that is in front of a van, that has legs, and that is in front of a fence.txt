@@ -1,0 +1,4 @@
+cond1(X):-in_front_of(X,Y),type(Y,van).
+cond2(X):-has(X,Y),type(Y,legs).
+cond3(X):-in_front_of(X,Y),type(Y,fence).
+target(X):-cond1(X),cond2(X),cond3(X).

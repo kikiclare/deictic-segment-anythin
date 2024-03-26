@@ -1,0 +1,4 @@
+cond1(X):-has(X,Y),type(Y,beak).
+cond2(X):-has(X,Y),type(Y,eye).
+cond3(X):-has(X,Y),type(Y,face).
+target(X):-cond1(X),cond2(X),cond3(X).

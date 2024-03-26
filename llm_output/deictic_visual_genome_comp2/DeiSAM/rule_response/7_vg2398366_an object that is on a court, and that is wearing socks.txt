@@ -1,0 +1,3 @@
+cond1(X):-on(X,Y),type(Y,court).
+cond2(X):-wearing(X,Y),type(Y,socks).
+target(X):-cond1(X),cond2(X).

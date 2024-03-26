@@ -1,0 +1,2 @@
+cond1(X):-behind(X,Y),type(Y,windshield).
+target(X):-cond1(X).
